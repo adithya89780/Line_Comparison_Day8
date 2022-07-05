@@ -5,12 +5,8 @@ import java.util.Scanner;
 public class Even_Or_Odd {
     public static void main(String[] args) {
 
-        int number,remainder;
-
-        // INPUT
-        System.out.println("please enter a number : ");
-        Scanner n = new Scanner(System.in);
-        number = n.nextInt();
+        int number = 221;
+        int remainder;
 
         // module
         remainder = number % 2;
