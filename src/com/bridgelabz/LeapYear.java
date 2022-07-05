@@ -3,8 +3,6 @@ package com.bridgelabz;
 public class LeapYear{
 
         public static void main(String[] args) {
-
-            //Variable definition and assignment
             int year = 2020 ;
             boolean leap ;
 

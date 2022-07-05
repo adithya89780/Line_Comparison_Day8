@@ -12,6 +12,7 @@ public class Even_Or_Odd {
         Scanner n = new Scanner(System.in);
         number = n.nextInt();
 
+        // module
         remainder = number % 2;
         if ( remainder == 0)
         System.out.println(number +  " is even number");

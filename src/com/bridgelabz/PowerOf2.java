@@ -1,21 +1,25 @@
 package com.bridgelabz;
+
+import java.util.Scanner;
+
 public class PowerOf2 {
     public static void main(String[] args) {
 
-        int num = 9;
-        int number = 1;
+        // read in one command-line argument
+        int n = 6;
 
-        if (num > 31) {
-            System.out.println("value of number should be less than 31");
-            return ;
-        }
-        else {
-            System.out.println(number);
-            for (int j = 1; j <= num; j++) {
-                number = number * 2;
-                System.out.println(number);
-            }
+        System.out.println(" 2 Power of :" );
+
+
+        int i = 0;                // count from 0 to N
+        int powerOfTwo = 1;       // the ith power of two
+
+        // repeat until i equals n
+        while (i <=n) {
+            System.out.println(i + " " + powerOfTwo);
+            powerOfTwo = 2 * powerOfTwo;                // double to get the next one
+            i = i + 1;
+               // print out the power of two
         }
     }
 }
-
