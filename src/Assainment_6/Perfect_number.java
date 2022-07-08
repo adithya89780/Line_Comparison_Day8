@@ -21,4 +21,3 @@ public class Perfect_number {
         }
     }
 }
-
